@@ -4,6 +4,8 @@ import sys
 from flask import Flask
 from flask import render_template, request, g, redirect, url_for, flash
 
+#adding a comment for the purposes of testing git
+
 flaskTest = Flask(__name__)
 flaskTest.secret_key = 'testkey'
 conn_string = "host='localhost' dbname='flaskTest' user='NO USERNAME' password='NO PASSWORD'"
