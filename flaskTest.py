@@ -5,6 +5,7 @@ from flask import Flask
 from flask import render_template, request, g, redirect, url_for, flash
 
 #adding a comment for the purposes of testing git
+#adding another comment for another test.
 
 flaskTest = Flask(__name__)
 flaskTest.secret_key = 'testkey'
