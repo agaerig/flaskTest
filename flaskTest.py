@@ -6,7 +6,7 @@ from flask import render_template, request, g, redirect, url_for, flash
 
 flaskTest = Flask(__name__)
 flaskTest.secret_key = 'testkey'
-conn_string = "host='localhost' dbname='flaskTest' user='agaerig' password='labfcneal'"
+conn_string = "host='localhost' dbname='flaskTest' user='NO USERNAME' password='NO PASSWORD'"
 try:
 	conn = psycopg2.connect(conn_string)
 except:
